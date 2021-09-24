@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Navbar from "./components/Navbar"
 import About from "./components/About"
+import Founder from "./components/Founder"
+import Achievement from "./components/Achievement"
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
@@ -12,7 +15,9 @@ export default function Home() {
 
       <Navbar />
       <About />
-
+      <Founder />
+      <Achievement />
+      <Footer />
     </div>
   )
 }
