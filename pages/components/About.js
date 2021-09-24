@@ -4,20 +4,20 @@ export default function About() {
     return (
         <>
         <div className="flex mx-36 mt-36 mb-20">
-            <div>
-                <div className="flex w-80 justify-between">
+            <div className="2xl:ml-52 xl:ml-0 flex flex-col justify-center">
+                <div className="flex justify-between w-1/2">
                 <div>
-                    <h1 className="text-3xl font-bold text-primary">About us</h1>
-                    <img src="line.svg" alt="line" className="w-32 pt-1" />
+                    <h1 className="text-3xl 2xl:text-5xl font-bold text-primary 2xl:w-72 mr-10 2xl:mr-0">About us</h1>
+                    <img src="line.svg" alt="line" className="2xl:w-52 w-32 pt-1" />
                 </div>
-                    <h1 className="text-3xl font-normal text-grayish">Our Mission</h1>
+                    <h1 className="text-3xl 2xl:text-5xl font-normal text-grayish">Our Mission</h1>
                 </div>
                 <div className="my-16">
-                    <p className="w-8/12 text-lg font-normal text-blackish">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis possimus minima adipisci porro, id aut nemo libero sequi dignissimos delectus accusamus nobis, a blanditiis modi beatae quo perferendis obcaecati iusto consectetur explicabo maiores! Voluptatum.</p>
+                    <p className="w-10/12 text-lg font-normal text-blackish 2xl:text-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis possimus minima adipisci porro, id aut nemo libero sequi dignissimos delectus accusamus nobis, a blanditiis modi beatae quo perferendis obcaecati iusto consectetur explicabo maiores! Voluptatum.</p>
                 </div>
             </div>
-            <div className="w-full">
-                <img className="w-full h-full" src="/about.png" alt="About Image" />
+            <div className="xl:w-full 2xl:w-7/12">
+                <img className="xl:w-full 2xl:w-7/12 h-full" src="/about.png" alt="About Image" />
             </div>
             <div>
         

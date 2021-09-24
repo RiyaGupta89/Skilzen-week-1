@@ -10,6 +10,7 @@ module.exports = {
         grayish: '#C9CBE2',
         blackish: '#18191F',
         bgColor: '#dadced',
+        background1: '#fafafa',
         background: '#f2f2f2',
     },
     },

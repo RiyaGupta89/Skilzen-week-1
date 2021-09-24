@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function Navbar() {
     return (
-        <div className="flex items-center w-11/12 justify-between h-16 -mt-2 absolute top-0 right-0 left-0 m-auto pt-2">
+        <div className="flex items-center w-11/12 2xl:w-10/12 justify-between h-16 -mt-2 absolute top-0 right-0 left-0 m-auto pt-2">
             <div className=""><img src="/logo.svg" className="" alt="Hiring Bird Logo" /></div>
-            <ul className="flex items-center w-2/5 justify-between pt-5 mr-10">
+            <ul className="flex items-center w-2/5 2xl:w-1/4 justify-between pt-5 mr-10">
                 <li>
                     <Link href="/">
                         <a className="text-primary font-normal text-base">Post an Internship</a>
